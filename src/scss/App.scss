@@ -1,0 +1,31 @@
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    h1 {
+        color: rgb(182, 25, 25);
+    }
+
+    .horizontal-line {
+        margin: 10px 0;
+        width: 50%;
+        border-top: 1px solid black;
+    }
+
+    button {
+        margin: 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .btn-green {
+        background: rgb(63, 226, 150);
+        color: rgb(0, 0, 0);
+    }
+
+    .btn-pink {
+        background: rgb(248, 53, 232);
+        color: rgb(0, 0, 0);
+    }
+}
