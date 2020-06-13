@@ -6,6 +6,7 @@ import FruitsList from './components/FruitsList';
 // import SweetsContextProvider from './contexts/SweetsContext';
 import SweetsList from './components/SweetsList';
 import FruitsAndSweetsContextProvider from './contexts/FruitsAndSweetsContext';
+import Users from './components/Users';
 
 const App = () => {
   const spanText = 'This is React App template';
@@ -29,6 +30,9 @@ const App = () => {
 
       <div className="horizontal-line" />
       <span>{spanText}</span>
+
+      <div className="horizontal-line" />
+      <Users />
     </div>
   );
 };

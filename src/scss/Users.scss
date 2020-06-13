@@ -1,0 +1,16 @@
+.users-container {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-card {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 0 15px;
+    width: 270px;
+
+    &:nth-child(even) {
+        background: rgb(214, 214, 214);
+    }
+}

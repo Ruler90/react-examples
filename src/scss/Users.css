@@ -1,0 +1,20 @@
+.users-container {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.user-card {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 0 15px;
+  width: 270px;
+}
+
+.user-card:nth-child(even) {
+  background: #d6d6d6;
+}
+/*# sourceMappingURL=Users.css.map */
