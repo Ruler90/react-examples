@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-// import { SweetsContext } from '../contexts/SweetsContext';
-import { FruitsAndSweetsContext } from '../contexts/FruitsAndSweetsContext';
+import { SweetsContext } from '../../contexts/SweetsContext';
+// import { FruitsAndSweetsContext } from '../contexts/FruitsAndSweetsContext';
+import './SweetsList.css';
 
 const SweetsList = () => {
-  const { sweets, setSweets } = useContext(FruitsAndSweetsContext);
+  const { sweets, setSweets } = useContext(SweetsContext);
 
   const allSweets = sweets.map((sweet, i) => (
     <li key={i}>{sweet}</li>

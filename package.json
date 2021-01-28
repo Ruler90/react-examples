@@ -4,7 +4,7 @@
   "description": "React App Template",
   "main": "index.jsx",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack serve",
     "build": "webpack --mode production --watch"
   },
   "repository": {

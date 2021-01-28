@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
-// import { FruitsContext } from '../contexts/FruitContext';
-import { FruitsAndSweetsContext } from '../contexts/FruitsAndSweetsContext';
-import { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
+import { FruitsContext } from '../../contexts/FruitContext';
+// import { FruitsAndSweetsContext } from '../contexts/FruitsAndSweetsContext';
+import './FruitsList.css';
 
 const FruitsList = () => {
-  const { fruits, setFruits } = useContext(FruitsAndSweetsContext);
+  const { fruits, setFruits } = useContext(FruitsContext);
 
   const allFruits = fruits.map((fruit, i) => (
     <li key={i}>{fruit}</li>
@@ -12,7 +12,7 @@ const FruitsList = () => {
 
   useEffect(() => {
     // set up
-    const logSth = setInterval(() => console.log("sth"), 1000);
+    const logSth = setInterval(() => console.log('sth'), 1000);
 
     return () => {
       // clean up
