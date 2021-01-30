@@ -41,7 +41,7 @@ Just a few React components and hooks. I created them to test basic concepts of 
 5. To start webpack-dev-server, use ```npm run start```.  
 To bundle, minify and uglify all js/jsx and css code, use ```npm run build```.
 
-### Last working dependencies list (2020-01-28):
+### Last working dependencies list (2021-01-28):
 
 ```json
 "devDependencies": {
